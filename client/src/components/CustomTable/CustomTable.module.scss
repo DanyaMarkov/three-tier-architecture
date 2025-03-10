@@ -1,0 +1,43 @@
+.table {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e5e7e6;
+
+    thead {
+        align-items: flex-start;
+
+        th {
+            text-align: start;
+            padding: 6px 12px 12px;
+            border-bottom: 1px solid #e5e7e6;
+        }
+    }
+
+    tbody {
+        tr {
+            align-items: center;
+            text-align: start;
+        }
+
+        td {
+            padding: 6px 12px;
+        }
+    }
+}
+
+.tableButton {
+    background-color: rgb(119, 119, 229);
+    font-size: 14px;
+    color: #fff;
+    padding: 4px 6px;
+    border-radius: 6px;
+    transition: 0.7s;
+
+    &:hover {
+        transition: 0.7s;
+        background-color: rgb(97, 97, 232);
+    }
+}
+
+.actionTableHead {
+    width: 80px;
+}
